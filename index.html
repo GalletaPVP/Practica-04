@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica 04</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/normalize.css">
+</head>
+<body>
+    <div class="contenedor">
+        <div class="cabecera">
+            <div class="titulo">
+                <h1>PEDIDOS</h1>
+            </div>
+            <div class="pedidos">
+                <label for="Numero_fecha">Fecha: </label>
+                <input type="date" id="numero_fecha">
+            </div>
+            <div class="pedidos">
+                <label for="Tipo_estacion">Estación: </label>
+                <label type="text" id="tipo_estacion"></label>
+            </div>
+        </div>
+        <div class="cuerpo">
+            <div class="campo">
+                <div class="titulo">
+                    <h2>Precios</h2>
+                </div>
+                <div class="precios separacion">
+                    <label for="Precio_cafe">Cafe: </label>
+                    <label type="text" id="precio_cafe"></label>
+                </div>
+                <div class="precios separacion">
+                    <label for="precio_helado">Helado: </label>
+                    <label type="text" id="precio_helado"></label>
+                </div>
+            </div>
+            <div class="campo">
+                <div class="titulo">
+                    <h2>Pedido</h2>
+                </div>
+                <div class="pedido separacion">
+                    <label for="Pedido_cafe">Cafe: </label>
+                    <input type="text" id="pedido_cafe">
+                </div>
+                <div class="pedido separacion">
+                    <label for="Pedido_helado">Helado: </label>
+                    <input type="text" id="pedido_helado">
+                </div>
+            </div>
+            <div class="campo">
+                <div class="titulo">
+                    <h2>Boleta de venta</h2>
+                </div>
+                <div class="boleta separacion">
+                    <label for="Costo_total">Costo total: </label>
+                    <input type="text" id="costo_total" disabled>
+                </div>
+                <div class="boleta separacion">
+                    <label for="Igv_total">IGV: </label>
+                    <input type="text" id="igv_total" disabled>
+                </div>
+                <div class="boleta separacion">
+                    <label for="Total_pagar">Total a pagar: </label>
+                    <input type="text" id="total_pagar" disabled>
+                </div>
+            </div>
+        </div>
+        <div class="pies">
+            <button id="calcular">Calcular</button>
+            <button id="limpiar">Limpiar</button>
+        </div>
+    </div>
+    <script src="js/algoritmo.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+</body>
+</html>

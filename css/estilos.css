@@ -1,0 +1,67 @@
+.contenedor{
+    width: 30%;
+    margin: 28px auto;
+    border-color: blue;
+    border-style: solid;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.separacion{
+    margin-bottom: 10px;
+}
+
+.cabecera .titulo{
+    background-color: blue;
+    text-align: center;
+    color: white;
+}
+
+.titulo h1{
+    margin-top: 0px;
+    height: 50px;
+    line-height: 50px;
+}
+
+.pedidos{
+    width: 80%;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.cuerpo .titulo{
+    background-color: blue;
+    text-align: center;
+    color: white;
+}
+
+.campo{
+    width: 80%;
+    margin: auto;
+}
+
+.pedidos label{
+    padding-right: 20px;
+}
+
+.precios label{
+    padding-right: 20px;
+}
+
+.pedido label{
+    padding-right: 20px;
+}
+
+.boleta label{
+    padding-right: 10px;
+}
+
+.pies{
+    border-top: blue solid;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+}
+
+
+
+
